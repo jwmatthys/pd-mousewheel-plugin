@@ -8,11 +8,11 @@ if {[tk windowingsystem] eq "x11"} {
     # Support for mousewheels on Linux/Unix commonly comes through
     # mapping the wheel to the extended buttons.
     bind all <Button-4> \
-            {event generate [focus -displayof %W] <MouseWheel> -delta  120}
+            {event generate [focus -displayof %W] <MouseWheel> -delta  1}
         bind all <Button-5> \
-            {event generate [focus -displayof %W] <MouseWheel> -delta -120}
+            {event generate [focus -displayof %W] <MouseWheel> -delta -1}
         bind all <Shift-Button-4> \
-            {event generate [focus -displayof %W] <Shift-MouseWheel> -delta  120}
+            {event generate [focus -displayof %W] <Shift-MouseWheel> -delta  1}
         bind all <Shift-Button-5> \
-            {event generate [focus -displayof %W] <Shift-MouseWheel> -delta -120}
+            {event generate [focus -displayof %W] <Shift-MouseWheel> -delta -1}
 }
