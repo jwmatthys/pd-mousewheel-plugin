@@ -1,5 +1,4 @@
-#N canvas 1 87 230 154 10;
-#N canvas 346 234 450 300 mousewheel 0;
+#N canvas 515 242 450 300 10;
 #X obj 77 96 r mousewheel;
 #X obj 77 121 +;
 #X obj 105 122 int;
@@ -10,6 +9,3 @@
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;
 #X connect 3 1 1 1;
-#X restore 91 68 pd mousewheel;
-#X floatatom 91 90 5 0 0 0 - - -, f 5;
-#X connect 0 0 1 0;

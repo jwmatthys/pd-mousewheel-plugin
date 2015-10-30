@@ -1,0 +1,9 @@
+#N canvas 509 222 416 286 10;
+#X floatatom 91 90 5 0 0 0 - - -, f 5;
+#X obj 91 68 mousewheel;
+#X text 207 34 mousewheel;
+#X text 207 58 GUI plugin and abstraction;
+#X text 306 254 by Joel Matthys;
+#X text 208 113 The mousewheel data is sent to;
+#X text 208 137 a [r mousewheel] object;
+#X connect 1 0 0 0;
